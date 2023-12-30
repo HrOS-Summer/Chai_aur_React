@@ -1,0 +1,12 @@
+Using npx : npx create-react-app __name__
+In the repo created: npm run build
+clean src:
+keep 
+App.js
+index.css
+index.js
+delete rest
+
+
+Using vite : npm create vite@latest
+In the directory : npm install/i - installs node modules
