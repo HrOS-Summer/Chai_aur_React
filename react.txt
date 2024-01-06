@@ -1,5 +1,7 @@
 Using npx : npx create-react-app __name__
+npm run start - run
 In the repo created: npm run build
+this build folder created will be served to user not the source folder
 clean src:
 keep 
 App.js
@@ -10,3 +12,23 @@ delete rest
 
 Using vite : npm create vite@latest
 In the directory : npm install/i - installs node modules
+npm run dev - to start
+
+in package.json file
+dev dependencies are just for development, they will not be used in production (build)
+
+In public folder:
+manifest.json is for mobile UI
+
+index.html - single html file that's why SPA - this is the main page that will be loaded
+
+<noscript>You need to enable JS to  run this app</noscript>
+ - this tag detects if JS is enabled in the browser or not
+
+
+package-lock.json  - dependencies are lockes to a specific version
+
+
+
+React DOM - is an implementation of React on web as React Native is implementation on mobile.
+It is virtual DOM a tree like structure
